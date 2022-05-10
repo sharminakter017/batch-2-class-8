@@ -1,54 +1,54 @@
 
-let studentName = prompt('Student Name');
-let stuClass    = prompt('Student class');
-let roll        = prompt('Class Roll');
-let en          = prompt(' Enter your English Marks');
-let bn          = prompt('Enter your Bangla Marks');
-let math        = prompt('Enter your Math Marks');
-let ss          = prompt(' Enter your Social Science Marks');
-let science     = prompt('Enter your Science Marks');
-let rel         = prompt('Enter your Religion Marks');
+
+studentdata.map((data)=>{
+
+  let results = '';
+
+(data.english >= 33 && data.bangla >= 33 && data.math >= 33 && data.ss >= 33 && data.science >= 33 && data.rel >= 33)? results = 'Passed' :   results = 'failed';
+
+
+
+
+
+ let cgpa = studentgpa(data.english) + studentgpa(data.bangla) + studentgpa(data.math) + studentgpa(data.ss) + studentgpa(data.science) + studentgpa(data.rel);
+  cgpa = cgpa / 6 ;
+
+
+
+  results == "Failed" ? cgpa = 0 : '';
+
+
 
 
 console.log(`
 
-  Student Name  = ${studentName}
-  Student Class = ${stuClass}
-  Student roll  = ${roll}
-  Student resut sheet 
+  Student Name  = ${data.name}
+  Student Class = ${data.class}
+  Student roll  = ${data.roll}
+ 
+  Student result sheet 
 
-    Subject name      Marks               GPA                      Grade                      CGPA
+    Subject name      Marks                           GPA                                         Grade                      
 
-   English             ${en}          ${studentgpa(en)}            ${studentgrade(en)}       
-   Bangla              ${bn}          ${studentgpa(bn)}            ${studentgrade(bn)}               
-   Math                ${math}        ${studentgpa(math)}          ${studentgrade(math)}      
-   Social science      ${ss}          ${studentgpa(ss)}            ${studentgrade(ss)}       
-   Science             ${science }    ${studentgpa(science)}       ${studentgrade(science)}   
-   Religion            ${rel}         ${studentgpa(rel)}           ${studentgrade(rel)}            
-
-
-
-
-   
-
-  
-
-    
-
-  
+   English             ${data.english}        ${studentgpa(data.english)}                ${studentgrade(data.english)}                
+   Bangla              ${data.bangla}         ${studentgpa(data.bangla)}                 ${studentgrade(data.bangla)}               
+   Math                ${data.math}           ${studentgpa(data.math)}                   ${studentgrade(data.math)}      
+   Social science      ${data.ss}             ${studentgpa(data.ss)}                     ${studentgrade(data.ss)}       
+   Science             ${data.science }       ${studentgpa(data.science)}                ${studentgrade(data.science)}   
+   Religion            ${data.rel}            ${studentgpa(data.rel)}                    ${studentgrade(data.rel)}  
+   =========================================================================================================================== 
+                                                                  CGPA = ${cgpa.toFixed(2)}                                                              
+                                                                  Final result = ${results}
 
 
 
 
+`);
 
 
 
+});
 
-
-
-
-
-`)
     
 
 

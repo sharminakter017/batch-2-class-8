@@ -8,7 +8,12 @@ const studentdata = [
         class    : 5,
         gender   : 'male',
         location : 'Dhaka',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 7,
+        rel      : 90,
     },
     {
         name     :  'Robin',
@@ -17,7 +22,12 @@ const studentdata = [
         class    : 3,
         gender   : 'male',
         location : 'Uttora',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Ashik',
@@ -26,7 +36,12 @@ const studentdata = [
         class    : 5,
         gender   : 'male',
         location : 'Banani',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Maliha',
@@ -35,7 +50,12 @@ const studentdata = [
         class    : 2,
         gender   : 'Female',
         location : 'Dhaka',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Borna',
@@ -44,7 +64,12 @@ const studentdata = [
         class    : 2,
         gender   : 'Female',
         location : 'Uttora',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Sahida',
@@ -53,7 +78,12 @@ const studentdata = [
         class    : 5,
         gender   : 'Female',
         location : 'Banani',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Firoz',
@@ -62,7 +92,12 @@ const studentdata = [
         class    : 5,
         gender   : 'male',
         location : 'Uttora',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Jidan',
@@ -71,7 +106,12 @@ const studentdata = [
         class    : 3,
         gender   : 'male',
         location : 'Banani',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Kawsar',
@@ -80,7 +120,12 @@ const studentdata = [
         class    : 5,
         gender   : 'male',
         location : 'Dhaka',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Asraful',
@@ -89,7 +134,12 @@ const studentdata = [
         class    : 2,
         gender   : 'male',
         location : 'Uttora',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Somrat',
@@ -98,7 +148,12 @@ const studentdata = [
         class    : 3,
         gender   : 'male',
         location : 'Dhaka',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Hossain',
@@ -107,7 +162,12 @@ const studentdata = [
         class    : 5,
         gender   : 'male',
         location : 'Dhaka',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Mariya',
@@ -116,7 +176,12 @@ const studentdata = [
         class    : 3,
         gender   : 'Female',
         location : 'Uttora',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Mahi',
@@ -125,7 +190,12 @@ const studentdata = [
         class    : 2,
         gender   : 'Female',
         location : 'Dhaka',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Sumon',
@@ -134,7 +204,12 @@ const studentdata = [
         class    : 5,
         gender   : 'male',
         location : 'Banani',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Akas',
@@ -143,7 +218,12 @@ const studentdata = [
         class    : 3,
         gender   : 'male',
         location : 'Dhaka',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Mosiur',
@@ -152,7 +232,12 @@ const studentdata = [
         class    : 5,
         gender   : 'male',
         location : 'Uttora',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Sakil',
@@ -161,7 +246,12 @@ const studentdata = [
         class    : 2,
         gender   : 'male',
         location : 'Dhaka',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Sagor',
@@ -170,7 +260,12 @@ const studentdata = [
         class    : 5,
         gender   : 'male',
         location : 'Dhaka',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Bappi',
@@ -179,7 +274,12 @@ const studentdata = [
         class    : 5,
         gender   : 'male',
         location : 'Dhaka',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Minhaj',
@@ -188,7 +288,12 @@ const studentdata = [
         class    : 5,
         gender   : 'male',
         location : 'Dhaka',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Foysal',
@@ -197,7 +302,12 @@ const studentdata = [
         class    : 5,
         gender   : 'male',
         location : 'Dhaka',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Nasir',
@@ -206,7 +316,12 @@ const studentdata = [
         class    : 5,
         gender   : 'male',
         location : 'Uttora',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 57,
+        ss       : 56,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Irfan',
@@ -215,7 +330,12 @@ const studentdata = [
         class    : 5,
         gender   : 'male',
         location : 'Dhaka',
-        addmission_fees : 500
+        english  : 60,
+        bangla   : 86,
+        math     : 87,
+        ss       : 76,
+        science  : 87,
+        rel      : 70,
     },
     {
         name     :  'Akhi',
@@ -224,7 +344,12 @@ const studentdata = [
         class    : 3,
         gender   : 'Female',
         location : 'Banani',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 77,
+        ss       : 58,
+        science  : 87,
+        rel      : 90,
     },
     {
         name     :  'Bristi',
@@ -233,7 +358,12 @@ const studentdata = [
         class    : 5,
         gender   : 'Female',
         location : 'Dhaka',
-        addmission_fees : 500
+        english  : 50,
+        bangla   : 86,
+        math     : 78,
+        ss       : 56,
+        science  : 86,
+        rel      : 90,
     },
     {
         name     :  'Sharmin',
@@ -242,7 +372,12 @@ const studentdata = [
         class    : 2,
         gender   : 'Female',
         location : 'Dhaka',
-        addmission_fees : 500
+        english  : 59,
+        bangla   : 86,
+        math     : 75,
+        ss       : 58,
+        science  : 81,
+        rel      : 80,
     },
     {
         name     :  'Sakib',
@@ -251,7 +386,12 @@ const studentdata = [
         class    : 5,
         gender   : 'male',
         location : 'Dhaka',
-        addmission_fees : 500
+        english  : 70,
+        bangla   : 76,
+        math     : 79,
+        ss       : 56,
+        science  : 88,
+        rel      : 95,
     },
     {
         name     :  'Milon',
@@ -260,7 +400,12 @@ const studentdata = [
         class    : 5,
         gender   : 'male',
         location : 'Uttora',
-        addmission_fees : 500
+        english  : 60,
+        bangla   : 85,
+        math     : 76,
+        ss       : 56,
+        science  : 87,
+        rel      : 95,
     },
     {
         name     :  'Imran',
@@ -269,7 +414,12 @@ const studentdata = [
         class    : 3,
         gender   : 'male',
         location : 'Dhaka',
-        addmission_fees : 500
+        english  : 40,
+        bangla   : 86,
+        math     : 47,
+        ss       : 76,
+        science  : 68,
+        rel      : 39,
     }
 
 
